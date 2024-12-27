@@ -1,0 +1,69 @@
+{
+  "mainSection": {
+    "title": "Machine Vision Systems"
+  },
+  "textSection": {
+    "title": "IdealTechno specializes in the development and supply of machine vision systems used in various tasks.",
+    "subtitle": "Below are some of the successful projects implemented by our team. We design machine vision systems based on our client's request."
+  },
+  "section1": {
+    "first": {
+      "title": "Carcass Quality Control",
+      "subtitle": "A monitoring system developed using artificial intelligence for slaughterhouses with a centralized information dashboard for visualization and analysis of carcass conditions on the slaughterhouse conveyor line. An advanced counting solution is designed to equip slaughterhouses with the capability for qualified counting, management, and reporting on the number of carcasses at each facility, as well as for carcass classification."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Image processing using artificial intelligence<br>-Product counting and quality control<br>-Suspicious behavior monitoring<br>-Visitor analytics and business reporting"
+    }
+  },
+  "section2": {
+    "first": {
+      "title": "Counting Shrimp Boxes",
+      "subtitle": "The vision system is used at a shrimp processing plant to count boxes and determine their various sizes. The system identifies small buckets, large buckets, and empty buckets."
+    },
+    "second": {
+      "title": "Features",
+      "subtitle": "-Video stream from RTSP camera<br>-Real-time detection and counting of full and empty cells.<br>-Real-time detection and counting of cell sizes."
+    }
+  },
+  "section3": {
+    "first": {
+      "title": "Cap Detection and Orientation Analysis",
+      "subtitle": "The project was implemented at a factory where different types of caps were used for filling various products into bottles of different volumes. A total of 8 different types of caps were used at the factory."
+    },
+    "second": {
+      "title": "Features",
+      "subtitle": "The machine vision system recognizes the cap and analyzes its orientation, then transmits the position and orientation of the cap in real time to a robot, which picks up the cap and places it on top of the bottle."
+    }
+  },
+  "section4": {
+    "first": {
+      "title": "Steel Defect Detection and Segmentation",
+      "subtitle": "As part of the project at a steel manufacturing plant, a machine vision system was installed on the production line to detect and classify defects on steel sheets, as well as to segment the defect areas."
+    },
+    "second": {
+      "title": "Features",
+      "subtitle": "-5 MP camera with telecentric lens.<br>-User interface developed with PyQt5<br>-NVIDIA Jetson Nano GPU."
+    }
+  },
+  "section5": {
+    "first": {
+      "title": "Tooth Segmentation",
+      "subtitle": "The project was implemented in a dental clinic where a machine vision system is used to determine tooth identifiers, segment tooth shapes, and segment the area of damaged teeth."
+    },
+    "second": {
+      "title": "Features",
+      "subtitle": "-5 MP camera with telecentric lens<br>-User interface developed with PyQt5"
+    }
+  },
+  "section6": {
+    "first": {
+      "title": "Virtual Safety",
+      "subtitle": "The project was implemented as a prototype for applying a virtual fencing system to measure safety. It detects a standby state when the hand(s) do not cross the virtual fence and an alert state when the hand(s) cross the virtual fence."
+    },
+    "second": {
+      "title": "Features",
+      "subtitle": "-5 MP camera with telecentric lens<br>-User interface developed with PyQt5"
+    }
+  }
+}

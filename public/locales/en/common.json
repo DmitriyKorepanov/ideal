@@ -1,0 +1,81 @@
+{
+  "header": {
+    "headerNav": {
+      "Home": "Home",
+      "About_us": "About Us",
+      "Automation": "Automation",
+      "Robots": "Step Industrial Robots",
+      "Machine_vision": "Machine Vision",
+      "Cases": "Cases",
+      "Contacts": "Contacts"
+    },
+    "dropdown": {
+      "link1": "Robotics",
+      "link2": "Machine Vision"
+    },
+    "button": "Contact Us"
+  },
+  "footer": {
+    "about": {
+      "description": "IdealTechno is an industrial contractor offering a full range of services, dedicated to providing industrial automation solutions to clients worldwide."
+    },
+    "links": {
+      "main": "Home",
+      "aboutUs": "About Us",
+      "automation": "Automation",
+      "robots": "Step Industrial Robots",
+      "machineVision": "Machine Vision",
+      "contacts": "Contacts",
+      "cases": "Cases",
+      "robotization": "Robotization",
+      "machineVision2": "Machine Vision"
+    },
+    "legals": {
+      "legal_1": "LLC IdealTechno",
+      "legal_2": "OGRN 1191690087621",
+      "legal_3": "INN 1655426031",
+      "legal_4": "INN 1655426031"
+    }
+  },
+  "contactForm": {
+    "title": "Leave your email to contact us",
+    "disclaimer": "By clicking the 'Send' button, I consent to the processing of my personal data in accordance with Federal Law No. 152-FZ of 27.07.2006 'On Personal Data', under the terms and for the purposes defined in the Consent to Personal Data Processing."
+  },
+  "mosaicSection": {
+    "button": "Learn More"
+  },
+  "titleWithImageSection": {
+    "innovation": "Innovation Starts Here"
+  },
+  "main": {
+    "slide1": "Industrial Robots",
+    "slide2": "Commercial Drones",
+    "slide3": "Kalashnikov TechnoFest",
+    "titleSection": "Blog",
+    "blog": {
+      "blog1": "Commercial Drones",
+      "blog2": "IdealTechno STEP",
+      "blog3": "Kalashnikov TechnoFest"
+    },
+    "CardSectionWithSlider": {
+      "title": "IdealTechno",
+      "subtitle": "Turnkey industrial automation: from documentation development to commissioning",
+      "button": "Learn More"
+    },
+    "universalCard": {
+      "title": "IdealTechno",
+      "subtitle": "Industrial automation is the process of transforming tasks performed manually into technological solutions using automated systems, industrial robots, and machine vision. This enhances productivity, reduces costs, and improves the quality of your products. Want to learn more? Watch the video.",
+      "button": "Contact Us"
+    },
+    "titleWithImageSection": "Innovation Starts Here"
+  },
+  "modal": {
+    "title": "Contact Us",
+    "fio": "Your Full Name",
+    "mail": "Your E-mail",
+    "phone": "Your Phone",
+    "comment": "Comment",
+    "button": "Send",
+    "legal": "By clicking the “Send” button, I give my consent to the processing of my personal data in accordance with Federal Law No. 152-FZ dated July 27, 2006, “On Personal Data,” under the terms and for the purposes defined in the Consent to Personal Data Processing."
+  }
+}

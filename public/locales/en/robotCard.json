@@ -1,0 +1,14 @@
+{
+  "card1": {
+    "title": "Desktop Robot <br> SD3/500 - SD7/700 - SD7/900"
+  },
+  "card2": {
+    "title": "Welding Robot <br> SA6/1400 - SA6/1440H - SA8/1800"
+  },
+  "card3": {
+    "title": "Universal Robot SR20/1700 - SR50/2180 - SR60/2280B - SR90/2280B"
+  },
+  "card4": {
+    "title": "Palletizing Robot <br> SP120/2400 - SP180/3200"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "mainSection": {
+    "title": "Robotic Systems"
+  },
+  "textSection": {
+    "title": "IdealTechno specializes in the development and application of robotic systems for various manufacturing processes and areas of application.",
+    "subtitle": "Our company is ready to design the required robotic system tailored to the individual needs of the client"
+  },
+  "section1": {
+    "first": {
+      "title": "Welding Robotic Cell #1",
+      "subtitle": "This project was implemented to automate the welding of a 'knuckle'-type product while minimizing the production cycle time."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Nozzle cleaning unit<br>-Industrial robot<br>-Protective enclosure<br>-Welding machine<br>-Rotary table<br>-Jig"
+    }
+  },
+  "section2": {
+    "first": {
+      "title": "Welding Robotic Cell #2",
+      "subtitle": "A project for automating the welding process of large-sized products using a linear axis to move the robot mounted on a pedestal along the workpiece, and a horizontal positioner for setting up the future product."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Industrial robot<br>-Welding machine<br>-Nozzle cleaning unit<br>-Linear axis<br>-Positioner<br>-Pedestal"
+    }
+  },
+  "section3": {
+    "first": {
+      "title": "Welding Robotic Cell #3",
+      "subtitle": "This cell was designed to automate the metal surfacing process."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Nozzle cleaning unit<br>-Industrial robot<br>-Protective enclosure<br>-Welding machine<br>-Rotary table<br>-Jig"
+    }
+  },
+  "section4": {
+    "first": {
+      "title": "Robotic Factory",
+      "subtitle": "A full-cycle production facility for manufacturing MDF boards using industrial robots, automated systems, and machine vision."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Nozzle cleaning unit<br>-Industrial robot<br>-Protective enclosure<br>-Welding machine<br>-Rotary table<br>-Jig"
+    }
+  },
+  "section5": {
+    "first": {
+      "title": "Welding Robotic Cell #4",
+      "subtitle": "An automated welding cell based on an industrial robot, using a peripheral device and a jig designed to accommodate the specific dimensions of the metal structure."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Industrial robot<br>-Jig with clamp<br>-Positioner<br>-Pedestal"
+    }
+  },
+  "section6": {
+    "first": {
+      "title": "Welding Robotic Cell #4",
+      "subtitle": "An automated welding cell based on an industrial robot, using a peripheral device and a jig designed to accommodate the specific dimensions of the metal structure."
+    },
+    "second": {
+      "title": "Equipment",
+      "subtitle": "-Industrial robot<br>-Jig with clamp<br>-Positioner<br>-Pedestal"
+    }
+  }
+}

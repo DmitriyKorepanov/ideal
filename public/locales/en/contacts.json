@@ -1,0 +1,24 @@
+{
+  "section1": {
+    "title": "Contacts",
+    "subtitle": "Contact us using the provided details or leave your email",
+    "list": {
+      "first": {
+        "title": "Office Address:",
+        "subtitle": "420095, Republic of Tatarstan, Kazan, Vosstaniya Street, 100k9190"
+      },
+      "second": {
+        "title": "Automation, Robotization:",
+        "subtitle": "sales@idealtechno.ru <br> +7 917 859 00 05"
+      },
+      "third": {
+        "title": "Production Address:",
+        "subtitle": "423602, Republic of Tatarstan, Yelabuga, Proletarskaya Street, 5A"
+      },
+      "fourth": {
+        "title": "Machine Vision:",
+        "subtitle": "machine@idealtechno.ru <br> +7 992 073 90 70"
+      }
+    }
+  }
+}

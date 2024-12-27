@@ -1,0 +1,40 @@
+{
+  "section1": {
+    "title": "Automation",
+    "subtitle": "The key element of IdealTechno's success is innovative development"
+  },
+  "section2": {
+    "title": "Production automation is the key to increasing efficiency and reducing costs.",
+    "subtitle": "Our company offers a wide range of solutions for automating production processes that will help you optimize your enterprise operations, improve product quality, and ensure uninterrupted production."
+  },
+  "section3": {
+    "benefit1": {
+      "title": "We are trusted",
+      "point1": "Small businesses",
+      "point2": "Medium businesses",
+      "point3": "Large businesses"
+    },
+    "benefit2": {
+      "title": "We do",
+      "point1": "3D/2D design",
+      "point2": "Manufacturing",
+      "point3": "Setup",
+      "point4": "Technical support"
+    },
+    "benefit3": {
+      "title": "You get",
+      "point1": "Opportunities",
+      "point2": "Profit",
+      "point3": "Speed",
+      "point4": "Status"
+    }
+  },
+  "faq": {
+    "question1": "What are the main advantages of industrial automation?",
+    "answer1": "Industrial automation helps improve production efficiency, product quality, and labor productivity, as well as reduce the risks of errors related to human factors. Additionally, automated systems provide more precise control over production processes, which can lead to reduced costs for raw materials and energy resources.",
+    "question2": "Which industries are most actively using industrial automation?",
+    "answer2": "Almost all industries use automated systems to some extent to improve production efficiency. However, certain industries use industrial automation more actively. These include: oil and gas industry; metallurgy; machine engineering; chemical industry; food industry.",
+    "question3": "How to choose the right equipment and software for industrial automation of a specific enterprise?",
+    "answer3": "The choice of equipment and software for industrial automation depends on the specific needs and characteristics of the enterprise. Our staff is ready to assist you with this matter. Please contact us at: sales@Idealtechno.ru"
+  }
+}

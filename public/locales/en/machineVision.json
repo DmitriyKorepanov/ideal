@@ -1,0 +1,31 @@
+{
+  "section1": {
+    "title": "Machine Vision",
+    "subtitle": "Machine vision systems allow for fast and accurate product inspection, data entry into databases, and, if necessary, sorting."
+  },
+  "tileSection": {
+    "subtitle1": "Pharmaceutical Products",
+    "subtitle2": "Dairy Industry",
+    "subtitle3": "Beverage Production",
+    "subtitle4": "Woodworking and Metalworking Industries",
+    "subtitle5": "Food Industry"
+  },
+  "benefits": {
+    "benefit1": "Predictive maintenance",
+    "benefit2": "Packaging inspection",
+    "benefit3": "Barcode reading",
+    "benefit4": "Assembly of products and components",
+    "benefit5": "Defect elimination",
+    "benefit6": "3D visual inspection",
+    "benefit7": "Increased safety",
+    "benefit8": "Tracking"
+  },
+  "faq": {
+    "question1": "What are machine vision systems and what are they used for?",
+    "answer1": "Machine vision systems are technologies that allow computers or robots to gather information about the surrounding environment using cameras and other image sensors. They are used in various fields such as manufacturing, transportation, healthcare, agriculture, and others for process automation, quality control, defect detection, navigation, and other tasks.",
+    "question2": "What components are included in machine vision systems?",
+    "answer2": "Cameras or other image sensors for data collection; Image processing software, including computer vision algorithms; Data storage and transmission devices, such as hard drives or network servers; Hardware for controlling cameras and processing data, such as industrial computers or embedded systems, etc.",
+    "question3": "How to choose the right machine vision system for a specific task?",
+    "answer3": "The choice of the appropriate machine vision system depends on many factors. Specialists at IdealTechno will help you choose the right solution. You can send your inquiry to: machine@idealtechno.ru"
+  }
+}

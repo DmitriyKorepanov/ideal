@@ -1,0 +1,37 @@
+{
+  "customCardSection": {
+    "title": "IdealTechno",
+    "subtitle": "We provide comprehensive solutions for all your industrial automation needs, including:",
+    "subtitle2": "IdealTechno is an industrial integrator with over 20 years of experience. We implement industrial robots and automated installations. We develop machine vision systems based on artificial intelligence.",
+    "list": {
+      "item1": {
+        "subtitle": "Engineering Services"
+      },
+      "item2": {
+        "subtitle": "Technical Services"
+      },
+      "item3": {
+        "subtitle": "Industry 4.0"
+      },
+      "item4": {
+        "subtitle": "Equipment Supply"
+      },
+      "item5": {
+        "subtitle": "Automation System Operator Training"
+      }
+    }
+  },
+  "section2Vision": {
+    "title1": "Our Vision",
+    "point1": "To be a leader in implementing turnkey industrial projects",
+    "point2": "To strive for high-quality and modern project completion",
+    "point3": "To be the best. Like the solutions we develop and maintain, this vision is built on a solid foundation.",
+    "title2": "Our Mission",
+    "point4": "To be innovative",
+    "point5": "To strive for operational excellence, with a focus on quality and profitability",
+    "point6": "To exceed expectations"
+  },
+  "certificate": {
+    "title": "Certificates"
+  }
+}
