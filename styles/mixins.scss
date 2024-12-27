@@ -1,0 +1,185 @@
+@import "styles/variables";
+
+$viewportPhone390: 390px;
+$viewportTablet: 540px;
+$viewportTablet768: 768px;
+$viewportDesktop1024: 1024px;
+$viewportDesktop1168: 1168px;
+$viewportDesktop1280: 1280px;
+$viewportDesktop1700: 1700px;
+
+@mixin MontserratRegular() {
+  font-family: Montserrat-Regular, "Times New Roman", sans-serif;
+}
+
+
+@mixin MontserratBold() {
+  font-family: Montserrat-Bold, "Times New Roman", sans-serif;
+}
+
+@mixin fontMontserratMedium() {
+  font-family: Montserrat-Medium, "Times New Roman", sans-serif;
+}
+
+
+@mixin fontMontserratSemiBold() {
+  font-family: Montserrat-SemiBold, "Times New Roman", sans-serif;
+}
+
+@mixin font58 {
+  @include fontMontserratSemiBold;
+  font-size: 58px;
+}
+
+@mixin font56 {
+  @include fontMontserratSemiBold;
+  font-size: 56px;
+}
+
+@mixin font46 {
+  @include fontMontserratSemiBold;
+  font-size: 46px;
+}
+
+@mixin font42 {
+  @include fontMontserratSemiBold;
+  font-size: 42px;
+}
+
+@mixin font36 {
+  @include fontMontserratSemiBold;
+  font-size: 36px;
+}
+
+@mixin font38 {
+  @include fontMontserratSemiBold;
+  font-size: 38px;
+}
+
+@mixin font32 {
+  @include fontMontserratSemiBold;
+  font-size: 32px;
+}
+
+@mixin font24-Bold {
+  @include fontMontserratSemiBold;
+  font-size: 24px;
+}
+
+@mixin font22-Bold {
+  @include fontMontserratSemiBold;
+  font-size: 22px;
+}
+
+@mixin font20-Bold {
+  @include fontMontserratSemiBold;
+  font-size: 20px;
+}
+
+@mixin font16 {
+  @include MontserratRegular;
+  font-size: 16px;
+}
+
+@mixin font18 {
+  @include MontserratRegular;
+  font-size: 18px;
+}
+
+@mixin font18-Medium {
+  @include fontMontserratMedium;
+  font-size: 18px;
+}
+
+@mixin font12 {
+  @include MontserratRegular;
+  font-size: 12px;
+}
+
+@mixin font13 {
+  @include fontMontserratSemiBold;
+  font-size: 13px;
+}
+
+@mixin font14 {
+  @include MontserratRegular;
+  font-size: 14px;
+}
+
+@mixin font-13-Regular {
+  @include MontserratRegular;
+  font-size: 13px;
+}
+
+@mixin font-10 {
+  @include MontserratRegular;
+  font-size: 10px;
+}
+
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin phone390() {
+  @media (min-width: $viewportPhone390) {
+    @content;
+  }
+}
+
+@mixin tablet540() {
+  @media (min-width: $viewportTablet) {
+    @content;
+  }
+}
+
+@mixin tablet768() {
+  @media (min-width: $viewportTablet768) {
+    @content;
+  }
+}
+
+@mixin desktop1024() {
+  @media (min-width: $viewportDesktop1024) {
+    @content;
+  }
+}
+
+@mixin desktop1168() {
+  @media (min-width: $viewportDesktop1168) {
+    @content;
+  }
+}
+
+@mixin desktop1280() {
+  @media (min-width: $viewportDesktop1280) {
+    @content;
+  }
+}
+
+@mixin desktop1700() {
+  @media (min-width: $viewportDesktop1700) {
+    @content;
+  }
+}
+
+@mixin container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1640px;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include desktop1700 {
+    max-width: 1200px;
+  }
+
+  @include desktop1280 {
+    max-width: 1000px;
+  }
+}
