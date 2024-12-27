@@ -1,0 +1,100 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: 706px;
+  margin: 50px auto 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: unset;
+
+  @include desktop1024 {
+    display: none;
+  }
+}
+
+.containerDesktop {
+  display: none;
+  @include desktop1024 {
+    display: flex;
+  }
+}
+
+.features {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.feature {
+  position: absolute;
+  font-size: 18px;
+}
+
+.feature span {
+  display: block;
+}
+
+.featureMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benefit1 {
+  top: 173px;
+  left: 40px;
+
+  @include desktop1280 {
+    left: 136px;
+  }
+}
+
+.benefit2 {
+  top: 1px;
+  left: 40%;
+
+  @include desktop1280 {
+    left: 514px;
+  }
+}
+
+.benefit3 {
+  top: 173px;
+  right: 40px;
+
+  @include desktop1280 {
+    right: unset;
+    left: 906px;
+  }
+}
+
+.benefitMobile {
+  position: unset;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 340px;
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  background-position: center;
+}

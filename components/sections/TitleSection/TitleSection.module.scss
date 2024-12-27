@@ -1,0 +1,30 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.section {
+  margin-top: 60px;
+  padding: 0 60px;
+  text-align: center;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.text {
+  color: #4BACC6;
+  @include font46;
+}
+
+.text36 {
+  @include font36;
+}
+.text38 {
+  @include font38;
+}
+.text42 {
+  @include font42;
+}
+.text46 {
+  @include font46;
+}

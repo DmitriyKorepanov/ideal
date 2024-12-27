@@ -1,0 +1,26 @@
+@import 'styles/mixins';
+
+.list {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.separator {
+  width: 1px;
+  height: 12px;
+  margin-left: 20px;
+  background: black;
+}

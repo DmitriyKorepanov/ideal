@@ -1,0 +1,62 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+$dotColor: #cebd6d;
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  @include font-13-Regular;
+  @include desktop1024 {
+    margin-bottom: 16px;
+    flex-direction: row;
+    padding: 0 12px;
+  }
+
+  @include tablet540 {
+    justify-content: center;
+  }
+}
+
+.item {
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  @include font14;
+
+  @include desktop1700 {
+    margin-right: 20px;
+  }
+
+  @include desktop1280 {
+    margin-right: 20px;
+  }
+
+  @include tablet540 {
+    margin-right: 15px;
+    margin-top: 10px;
+    @include font13;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.link {
+  color: $color-text-gray;
+  text-decoration: none;
+  position: relative;
+}
+
+.linkActive {
+  color: $navy-blue;
+
+  @include fontMontserratSemiBold;
+
+}
+
+.linkDisabled {
+  opacity: 50%;
+}

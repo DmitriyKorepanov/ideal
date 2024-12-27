@@ -1,0 +1,54 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.container {
+  position: relative;
+}
+
+.dropdown {
+  margin-left: 5px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  padding-right: 36px;
+  margin-right: 10px;
+  background: #F6F6F6;
+
+
+  @include font13;
+
+  &::after {
+    content: "";
+    border: 7px solid transparent;
+    border-top: 7px solid $navy-blue;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+}
+
+.list {
+  display: none;
+  position: absolute;
+  border: 1px solid $navy-blue;
+  width: 160px;
+  background: #F6F6F6;
+  top: 6px;
+  z-index: 10;
+}
+
+.listActive {
+  display: block;
+}
+
+.item {
+  background: white;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+}

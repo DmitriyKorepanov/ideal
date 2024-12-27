@@ -1,0 +1,147 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.footer {
+  background: $color-light-black;
+  color: white;
+  min-width: 360px;
+  border-radius: 20px 20px 0 0;
+  text-align: left;
+  @include font12;
+}
+
+.about {
+  max-width: 196px;
+  margin-right: 22px;
+
+  @include desktop1024 {
+    margin-right: 123px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 26px 18px 32px 18px;
+
+  @include desktop1024 {
+    max-width: 100%;
+    padding: 30px 60px 42px 40px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 49px;
+}
+
+.column {
+  margin-right: 80px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+
+  @include desktop1024 {
+    flex-direction: row;
+  }
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkDisabled {
+  opacity: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 398px;
+
+  @include desktop1280 {
+    max-width: 250px;
+  }
+
+  @include desktop1024 {
+    max-width: 280px;
+    margin-bottom: 25px;
+  }
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  margin-top: 9px;
+}
+
+.input {
+  height: 63px;
+  width: 100%;
+  position: relative;
+  padding: 0 25px;
+
+  @include desktop1280 {
+    height: 40px;
+  }
+
+  &::-moz-placeholder {
+    opacity: 50%;
+  }
+  &::-webkit-input-placeholder {
+    opacity: 50%;
+  }
+}
+
+.wrapper {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 23px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 9px;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.socialTitle {
+  margin: 73px 0 24px 0;
+}
+
+.socialList {
+  display: flex;
+  margin-top: 18px;
+}
+
+.socialIcon {
+  margin-right: 25px;
+}
+
+.logo {
+  @include desktop1024 {
+    width: 100px;
+  }
+}

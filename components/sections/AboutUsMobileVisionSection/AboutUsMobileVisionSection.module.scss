@@ -1,0 +1,42 @@
+.AboutUsMobileVisionSection {
+  display: none;
+  @media (max-width: 1024px) {
+    display: block;
+    padding: 16px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+
+    .item {
+      font-size: 16px;
+      color: #34495e;
+      margin-bottom: 8px;
+    }
+  }
+
+  .imageWrapper {
+    margin: 24px 0;
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 17px;
+  gap: 20px;
+  margin-top: 20px;
+
+  @include desktop1024 {
+    gap: 30px;
+    flex-direction: row;
+    padding: 0 60px;
+  }
+}
+
+.card {
+  display: flex;
+  background: $blue;
+  border-radius: 20px;
+  min-height: 47px;
+  align-items: center;
+  padding: 10px 28px;
+
+  @include desktop1024 {
+    align-items: unset;
+    padding: 20px 10px;
+    min-height: 125px;
+  }
+}
+
+.title {
+  color: white;
+  @include font36;
+  margin-right: 10px;
+}
+.subtitle {
+  color: white;
+  @include font18;
+}
+
+.mobile {
+  @include desktop1024 {
+    display: none;
+  }
+}
+
+.wrapperCard {
+  @include desktop1024 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.doubleCard {
+  display: none;
+  @include desktop1024 {
+    display: flex;
+    min-height: 59px;
+    background: $blue;
+    border-radius: 20px;
+    padding: 7px;
+  }
+}

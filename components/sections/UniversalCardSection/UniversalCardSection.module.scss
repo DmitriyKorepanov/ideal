@@ -1,0 +1,104 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.section {
+  padding: 0 17px;
+  margin-top: 70px;
+
+  @include desktop1024 {
+    padding: 0 40px;
+    margin-top: 100px;
+  }
+}
+
+.wrapper {
+  background: #4bacc6;
+  border-radius: 20px;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include desktop1024 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.content {
+  color: white;
+  max-width: 538px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  @include desktop1024 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.title {
+  font-size: 42px;
+
+  @include desktop1024 {
+    @include font58;
+    line-height: 55px;
+  }
+}
+
+.subtitle {
+  margin-top: 10px;
+  @include font16;
+  line-height: 19.5px;
+
+  @include desktop1024 {
+    margin-top: 25px;
+    line-height: 21.94px;
+    @include font18;
+  }
+}
+
+.video {
+  width: 300px;
+  height: 189px;
+  border-radius: 20px;
+  overflow: hidden;
+
+  @include desktop1024 {
+    width: 560px;
+    height: 400px;
+  }
+}
+
+.button {
+  background: white;
+  color: #4bacc6;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0 42px;
+  min-height: 55px;
+  width: 100%;
+  max-width: 480px;
+
+  @include font16;
+  @include desktop1024 {
+    width: auto;
+    min-width: 195px;
+    margin-top: 33px;
+    @include font18;
+  }
+}
+
+.buttonMobile {
+  @include desktop1024 {
+    display: none;
+  }
+}
+
+.buttonDesktop {
+  display: none;
+  @include desktop1024 {
+    display: block;
+  }
+}

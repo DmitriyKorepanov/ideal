@@ -1,0 +1,154 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+  line-height: 20px;
+
+  @include desktop1024 {
+    width: auto;
+    flex-direction: column;
+    padding: 40px;
+    line-height: 22px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  order: 2;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+  @include desktop1024 {
+    order: unset;
+    margin-top: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 36px 0 42px;
+  text-align: center;
+}
+
+.imgWrapper {
+  height: 213px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-size: cover;
+  color: white;
+
+  @include phone390 {
+    width: 370px;
+  }
+
+  @include tablet540 {
+    width: 506px;
+  }
+
+  @include desktop1024 {
+    width: 98%;
+    height: 213px;
+  }
+
+  @include desktop1168 {
+    width: 488px;
+    height: 213px;
+  }
+}
+
+.bigImage {
+  @include desktop1024 {
+    width: 460px;
+    height: 460px;
+  }
+}
+
+.main {
+  min-width: 488px;
+  margin-right: 20px;
+}
+
+.wideCard {
+  width: 100%;
+}
+
+.imageWide {
+  width: 100%;
+}
+
+.container {
+  flex-direction: column;
+
+  @include desktop1024 {
+    flex-direction: row;
+  }
+
+  @include flexCenter;
+}
+
+.alignTop {
+  align-items: flex-start;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  width: 237px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-bottom: 16px;
+}
+
+.button {
+  background: white;
+  color: #4bacc6;
+  border-radius: 10px;
+  width: 195px;
+  margin-top: 14px;
+}
+
+.title {
+  font-size: 42px;
+
+  @include desktop1024 {
+    @include font58;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.textBlock {
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  @include desktop1024 {
+  height: auto;
+  }
+}
+
+.textBlock_big {
+  @include desktop1024 {
+    height: 460px;
+  }
+}

@@ -1,0 +1,37 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.card {
+  background: white;
+  width: 255px;
+  min-height: 168px;
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include desktop1024 {
+    position: absolute;
+  }
+}
+
+.title {
+  width: 100%;
+  background: #4bacc6;
+  border-radius: 20px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.point {
+  list-style-type: disc;
+}

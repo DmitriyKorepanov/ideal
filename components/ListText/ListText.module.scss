@@ -1,0 +1,23 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.list {
+  display: grid;
+  gap: 20px;
+}
+
+.list_4 {
+  @include desktop1024 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.title {
+  color: $navy-blue;
+  @include font24-Bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+@import "styles/mixins";
+
+.section {
+  margin-top: 70px;
+  border-radius: 20px;
+  overflow: hidden;
+
+  @include desktop1024 {
+    margin-top: 40px;
+  }
+}

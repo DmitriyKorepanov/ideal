@@ -1,0 +1,61 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.slider {
+  width: 340px;
+  height: 340px;
+
+  @include phone390 {
+    width: 370px;
+  }
+
+  @include tablet540 {
+    width: 506px;
+  }
+
+  @include desktop1024 {
+    width: 450px;
+    height: 470px;
+  }
+
+  @include desktop1168 {
+    width: 588px;
+    height: 470px;
+  }
+
+  @include desktop1280 {
+    width: 688px;
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+
+  @include desktop1024 {
+    height: 470px;
+  }
+}
+
+.sliderButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 253px;
+  height: 43px;
+  background: #4BACC6;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  @include desktop1024 {
+    right: 0;
+    width: 338px;
+  }
+}

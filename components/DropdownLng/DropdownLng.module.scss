@@ -1,0 +1,52 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.container {
+  position: relative;
+}
+
+.dropdown {
+  margin-left: 5px;
+  color: $navy-blue;
+  position: relative;
+  cursor: pointer;
+  padding: 1px 25px 2px 6px;
+  border-radius: 20px;
+  margin-right: 10px;
+  background: #F6F6F6;
+  max-width: 49px;
+
+
+  @include font13;
+
+  &::after {
+    content: "";
+    border: 7px solid transparent;
+    border-top: 7px solid $navy-blue;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+}
+
+.list {
+  display: none;
+  position: absolute;
+  border: 1px solid $navy-blue;
+  width: 100%;
+  background: #F6F6F6;
+  max-width: 49px;
+
+}
+
+.listActive {
+  display: block;
+}
+
+.item {
+  background: white;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}

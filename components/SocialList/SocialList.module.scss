@@ -1,0 +1,30 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.legals {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+
+  @include desktop1024 {
+    flex-direction: row;
+  }
+}
+
+.legalsMobile {
+  @include desktop1024 {
+    display: none;
+  }
+}
+
+.legalsDesktop {
+  display: none;
+
+  @include desktop1024 {
+    display: flex;
+  }
+}
+
+.legal {
+  margin-right: 20px;
+}

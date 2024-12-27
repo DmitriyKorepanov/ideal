@@ -1,0 +1,48 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.slider {
+  width: 100%;
+  height: 100%;
+  // height: 466px;
+  margin-top: 20px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+  @include desktop1024 {
+    height: 500px;
+    padding: 0 65px;
+  }
+}
+
+.slide {
+  //width: 320px;
+  height: 466px;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+
+  @include desktop1024 {
+    height: 500px;
+    width: 343px;
+    height: 500px;
+  }
+}
+
+.sliderButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 253px;
+  height: 43px;
+  background: #4BACC6;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  @include desktop1024 {
+    width: 338px;
+  }
+}

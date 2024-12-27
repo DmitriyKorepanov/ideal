@@ -1,0 +1,186 @@
+@import "styles/mixins";
+@import "styles/variables";
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+
+  @include desktop1024 {
+    width: auto;
+    flex-direction: column;
+    padding: 40px;
+  }
+}
+
+.wrapper {
+  order: 2;
+  display: flex;
+  justify-content: center;
+
+  @include desktop1024 {
+    order: unset;
+  }
+}
+
+.wrapperSlider {
+  margin-top: 10px;
+
+  @include desktop1024 {
+    margin-top: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 36px 20px 42px;
+  text-align: center;
+}
+
+.picWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-size: cover;
+  color: white;
+
+  @include phone390 {
+    width: 370px;
+  }
+
+  @include tablet540 {
+    width: 506px;
+  }
+
+  @include desktop1024 {
+    width: 98%;
+    height: 470px;
+  }
+
+  @include desktop1168 {
+    width: 488px;
+    height: 470px;
+  }
+}
+
+.picWrapper2 {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+  @include phone390 {
+    width: 370px;
+  }
+
+  @include tablet540 {
+    width: 506px;
+  }
+
+  @include desktop1024 {
+    width: 98%;
+    height: 470px;
+  }
+
+  @include desktop1168 {
+    width: 100%;
+    height: 470px;
+  }
+}
+
+.main {
+  min-width: 488px;
+  margin-right: 20px;
+}
+
+.wideCard {
+  width: 100%;
+}
+
+.imageWide {
+  width: 100%;
+}
+
+.container {
+  flex-direction: column;
+  gap: 20px;
+
+  @include desktop1024 {
+    flex-direction: row;
+  }
+
+  @include flexCenter;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  width: 237px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-bottom: 16px;
+}
+
+.button {
+  background: white;
+  color: #4bacc6;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0 42px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 480px;
+
+  @include font16;
+  @include desktop1024 {
+    width: auto;
+    min-height: 55px;
+    min-width: 195px;
+    margin-top: 33px;
+    @include font18;
+  }
+}
+
+.title {
+  font-size: 42px;
+
+  @include desktop1024 {
+    @include font56;
+  }
+}
+
+.desktop {
+  display: none;
+  @include desktop1024 {
+    display: inline;
+  }
+}
+
+.mobile {
+  display: inline;
+  @include desktop1024 {
+    display: none;
+  }
+}
+
+.subtitle {
+  margin-top: 11px;
+  font-size: 18px;
+}
